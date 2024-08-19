@@ -1,5 +1,6 @@
 import psutil
 
+
 class ProcessUtil(object):
     @staticmethod
     def kill(process_name: str) -> bool:
